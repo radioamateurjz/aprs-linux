@@ -1,0 +1,8 @@
+[Unit]
+Description=Service to handle APRSHost
+
+[Service]
+ExecStart=/usr/bin/APRSHostStart.sh
+
+[Install]
+WantedBy=multi-user.target

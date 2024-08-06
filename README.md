@@ -1,2 +1,2 @@
-# aprs-linux
-This repo has some scripts I made for my Amateur Radio APRS station running Linux.
+# APRS Services Loop
+This folder has the scripts to run an APRS station with Xastir and Direwolf in a way that re-starts the APRS services in case of a Direwolf failure, with the option of starting APRS Services automatically at boot time using a custom-created service/daemon.
